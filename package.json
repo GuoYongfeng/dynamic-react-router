@@ -1,0 +1,35 @@
+{
+  "name": "react-router-dynamic-routes-webpack2",
+  "version": "1.0.0",
+  "private": true,
+  "description": "React Router Dynamic Chunk Loading",
+  "author": "Grgur Grisogono",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --history-api-fallback --hot --progress --port 3000",
+    "build": "node build.js production"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.6.5",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.6.0",
+    "babel-preset-es2015-native-modules": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "node-sass": "^3.5.0-beta.1",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^2.1.0-beta.4",
+    "webpack-dev-server": "^2.0.0-beta"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.6.1",
+    "babel-runtime": "^6.6.1",
+    "react": "^15.0.0-rc.1",
+    "react-dom": "^15.0.0-rc.1",
+    "react-router": "^2.0.0"
+  }
+}
