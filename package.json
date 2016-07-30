@@ -1,12 +1,12 @@
 {
-  "name": "react-router-dynamic-routes-webpack2",
-  "version": "1.0.0",
+  "name": "dynamic-react-router",
+  "version": "1.0.1",
   "private": true,
-  "description": "React Router Dynamic Chunk Loading",
-  "author": "Grgur Grisogono",
+  "description": "基于 `webpack 2` 和 `react-router` 的动态路由实现",
+  "author": "GuoYongfeng",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server --history-api-fallback --hot --progress --port 3000",
+    "dev": "webpack-dev-server --history-api-fallback --hot --progress --port 3000",
     "build": "node build.js production"
   },
   "license": "MIT",
@@ -31,5 +31,17 @@
     "react": "^15.0.0-rc.1",
     "react-dom": "^15.0.0-rc.1",
     "react-router": "^2.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuoYongfeng/dynamic-react-router.git"
+  },
+  "keywords": [
+    "webpack2",
+    "react-router"
+  ],
+  "bugs": {
+    "url": "https://github.com/GuoYongfeng/dynamic-react-router/issues"
+  },
+  "homepage": "https://github.com/GuoYongfeng/dynamic-react-router#readme"
 }
